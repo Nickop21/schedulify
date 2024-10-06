@@ -3,7 +3,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 // import { checkUser } from "@/lib/checkUser";
-// import UserMenu from "./user-menu";
+import UserMenu from "./user-menu";
 import { Button } from "./ui/button";
 import { PenBox } from "lucide-react";
 
@@ -35,8 +35,8 @@ async function Header() {
           </SignInButton>
         </SignedOut>
         <SignedIn>
-        <UserButton/>
-          {/* <UserMenu /> */}
+        {/* <UserButton/> */}
+          <UserMenu />
         </SignedIn>
       </div>
     </nav>
