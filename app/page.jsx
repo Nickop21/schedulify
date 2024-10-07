@@ -60,10 +60,11 @@ export default function Home() {
       <div className="lg:w-1/2 flex justify-center">
         <div className="relative w-full max-w-md aspect-square">
           <Image
-            src="/poster.png"
+            src="/random.jpg"
             alt="Scheduling illustration"
             layout="fill"
             objectFit="contain"
+            
           />
         </div>
       </div>
